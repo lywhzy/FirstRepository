@@ -5,6 +5,11 @@ web.xml中web-app报的错可以忽略
 使用git 提交项目 因为在创建远程仓库时 新建了一个README.MD文件 导致远程仓库 与本地仓库文件目录不匹配 这是项目提交失败
 解决办法： 在对应项目文件夹上右键打开GIT.BASH 输入git pull --rebase origin master指令
 
+使用git 更新项目（从远程仓库下载文件到本地）出现No tracked branch configured for branch master or the branch doesn't exist.
+原因时分支跟踪不匹配造成的
+解决办法：在对应项目文件夹上右键打开GIT.BASH 输入git branch --set-upstream-to=origin/master指令即可
+
+
 alt + enter: 光标处，提供快速修复选择(光标位置不同，提供结果也会不一样) 00000000
 alt + f1: 弹出层，显示当前文件可选择目标进行跳转
 alt + f2: 弹出层，选择浏览器打开
