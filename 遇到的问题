@@ -1,0 +1,108 @@
+在idea中 jsp要在头部加上isELIgnored来指定此jsp解析el表达式
+
+web.xml中web-app报的错可以忽略
+
+alt + enter: 光标处，提供快速修复选择(光标位置不同，提供结果也会不一样) 00000000
+alt + f1: 弹出层，显示当前文件可选择目标进行跳转
+alt + f2: 弹出层，选择浏览器打开
+alt + insert: 自动生成(getter、setter、toString 等)000000000
+alt + home: 跳转到导航栏
+alt + q: 弹出层，显示当前类的上下文信息000000000
+alt + ← / →: 编辑框框左右切换
+alt + ↑ / ↓: 前往当前光标位置的上一个、下一个方法处
+alt + `: 弹出层，显示vcs 常用操作
+
+ctrl + 1,2,3..9: 前往助记键处(对数字助记键有效)
+ctrl + b: 前往光标所在的方法、变量定义处(同等于 ctrl + 鼠标左键单击)
+ctrl + d: 删除光标所在行 或 删除选中的行【ctrl + y】 000000
+ctrl + e: 显示最近打开的文件记录列表000000000000000
+ctrl + f: 当前文件查找0000000000000000
+ctrl + f4: 关闭当前编辑窗口
+ctrl + f11: 使用助记键添加书签；删除书签
+ctrl + f12: 弹出当前文件结构层(可进行输入筛选；快速查找方法等)0000000000000
+ctrl + g: 前往当前文件指定行处000000000000000
+ctrl + h: 显示当前类的层次结构00000000000000
+ctrl + i: 实现方法
+ctrl + j: 插入自定义模板000000000000
+ctrl + k: 版本控制提交项目
+ctrl + n: 查找 class 文件000
+ctrl + o: 重写方法000
+ctrl + p: 显示方法参数信息000
+ctrl + q: 显示方法、变量的注释文档000
+ctrl + r: 当前文件替换0000
+ctrl + tab: 编辑窗口切换(按住 ctrl 键，可结合 上下键 + delete 关闭文件)
+ctrl + t: 版本控制更新项目
+ctrl + u: 前往光标所在方法的父类方法、接口定义
+ctrl + w: 递进选择(扩大范围)000
+ctrl + x: 剪切光标所在行；剪切选择内容
+ctrl + y: 复制光标所在行到下一行；复制所选内容到光标后面【ctrl + d】000
+ctrl + z：撤销
+ctrl + +: 展开代码
+ctrl + -: 折叠代码
+ctrl + /: 注释代码000
+ctrl + [: 将光标移动到代码块开始位置
+crtl + ]: 将光标移动到代码块结束位置
+
+shift + enter: 开始新行(当前行的下一行)
+shift + f2: 前往当前文件上一个错误处
+shift + f3: 在查找模式下，前往上一个匹配处
+shift + f4: 使用新窗口打开当前编辑文件
+shift + f6: 重命名
+shift + f9: debug 启动(同等于工具栏 debug)
+shift + f10: 正常启动(同等于工具栏 run)
+shift + f11: 弹出层，显示书签
+shift + 左键单击: 鼠标点击当前文件 tag 标签，关闭当前文件
+
+ctrl + alt + b: 前往光标所在方法的实现处
+ctrl + alt + enter: 开始新行(当前行的上一行)
+ctrl + alt + f11: 切换全屏模式【自定义】000
+ctrl + alt + h: 调用层次结构
+ctrl + alt + l: 格式化代码00000
+ctrl + alt + o: 优化导入，删除无效引用
+ctrl + alt + s: 打开系统设置
+ctrl + Alt + ←: 回退到上一个操作的地方
+ctrl + Alt + →: 前进到下一个操作的地方
+
+ctrl + shift + 1,2,3..9: 快速添加助记键书签
+ctrl + shift + a: 查找动作
+ctrl + shift + backspace: 前往上次修改处(类似 eclipse 中的 ctrl + q，实质上有差别)
+ctrl + shift + c: 复制当前文件磁盘路径
+ctrl + shift + e: 弹出层，显示最近修改的文件列表
+ctrl + shift + enter: 完成当前语句(结尾自动补充分号或括号等)
+ctrl + shift + f: 在路径中查找
+ctrl + shift + f7: 高亮显示选择文本及相同文本
+ctrl + shift + f12: 编辑器最大化
+ctrl + shift + h: 显示方法层次结构
+ctrl + shift + i: 弹出层，显示光标所在的方法或类的定义
+ctrl + shift + j: 将下一行合并到当前行末尾
+ctrl + shift + n: 查找文件；后面输入 / 可查找目录
+ctrl + shift + r: 在路径中替换
+ctrl + shift + t: 添加单元测试
+ctrl + shift + u: 大小写转换
+ctrl + shift + v: 弹出层，列出粘贴记录
+ctrl + shift + w: 递进选择(缩小范围)
+ctrl + shift + z: 取消撤销
+ctrl + shift + /: 代码块注释
+ctrl + shift + [: 选中从光标所在位置到代码块开始位置
+ctrl + shift + ]: 选中从光标所在位置到代码块结束位置
+ctrl + shift + +: 展开所有代码
+ctrl + shift + -: 折叠所有代码
+ctrl + shift + ↑ / ↓: 光标放在方法名上，上下跳转方法顺序
+ctrl + shift + 左键单击: 前往变量、方法等定义处(新窗口打开)
+
+alt + shift + c: 弹出层，列出最近修改列表记录(通过该操作可进行恢复操作，类似于版本管理)
+alt + shift + f9: 弹出层，显示 debug 选择菜单
+alt + shift + f10: 弹出层，显示 run 选择菜单
+alt + shift + ↑ / ↑: 上下行调整顺序
+alt + /: 代码补全(默认被系统输入法占用)【ctrl + space】
+alt + shift + 鼠标左键双击: 点选
+
+ctrl + shift + alt + c: 复制参考信息
+ctrl + shift + alt + v: 无格式粘贴
+ctrl + shift + alt + n: 查找变量，方法
+ctrl + shift + alt + s: 打开当前项目设置
+
+f2: 前往下一个错误处
+f3: 在查找模式下，前往下一个匹配处
+f11: 添加书签
+double shift: 全局查找
